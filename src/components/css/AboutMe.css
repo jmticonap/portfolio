@@ -1,0 +1,29 @@
+.about {
+    padding: 0 1.5rem;
+}
+
+.about__h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.about__p {
+    text-align: justify;
+}
+
+.about-studies {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.about-studies__itm {
+    text-align: center;
+}
+
+.about-studies__icon {
+    width: 45%;
+}

@@ -1,0 +1,9 @@
+.skills__level{
+    text-align: center;
+    position: relative;
+    z-index: 5;
+}
+
+.skill_level{
+    text-align: right;
+}

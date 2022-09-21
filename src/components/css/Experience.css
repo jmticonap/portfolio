@@ -1,0 +1,50 @@
+.experience {
+    background-color: var(--darker);
+    padding: 0 1.5rem;
+}
+
+.experience__h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.experience__cards {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.experience__card {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.experience__card__data {
+    line-height: 1rem;
+}
+
+.experience__card>img {
+    width: 5rem;
+}
+
+.experience__card>div {
+    width: 6rem;
+}
+
+.experience__card__data>p {
+    font-size: 0.7rem;
+}
+
+.experience__card__data>small {
+    font-size: 0.7rem;
+}
+
+.experience__card h4 {
+    width: 4rem;
+}
