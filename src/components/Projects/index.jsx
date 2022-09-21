@@ -1,4 +1,6 @@
-import React from 'react';
+import React from 'react'
+import '../css/Projects.css'
+
 
 export const ProjectItem = ({ image, alt, name, url }) => {
     return (

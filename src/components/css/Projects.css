@@ -1,0 +1,54 @@
+/* Section Portfolio */
+.portfolio {
+    background-color: var(--darker);
+}
+
+.portfolio__aligner {
+    width: 100%;
+    max-width: 66rem;
+    margin: 0 auto;
+}
+
+.portfolio__h2 {
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+}
+
+.portfolio__img-container {
+    position: relative;
+    display: inline-block;
+    width: 70%;
+    max-width: 33rem;
+}
+
+.portfolio__img-container a {
+    color: #FFF;
+}
+
+.portfolio__img-container .custom-after {
+    position: absolute;
+    top: -1rem;
+    left: -0.5rem;
+    right: -0.5rem;
+    bottom: 3rem;
+    background-color: var(--hight-light);
+}
+
+.portfolio__card {
+    padding: 1rem 1.5rem;
+}
+
+.portfolio__card:nth-child(odd) {
+    text-align: right;
+}
+
+.portfolio__img-container img {
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    height: auto;
+}
+
+.portfolio__text {
+    text-align: left;
+}
