@@ -191,11 +191,7 @@ h2 {
 
 
 /*=================================================*/
-.footer {
-    text-align: center;
-    background-color: var(--darker);
-    padding: 2rem;
-}
+
 
 #btn_top {
     position: fixed;

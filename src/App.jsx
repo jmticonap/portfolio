@@ -6,6 +6,8 @@ import AboutMe from './components/AboutMe'
 import { Experience, ExperienceItem } from './components/Experience'
 import Skills from './components/Skills'
 import { Projects, ProjectItem } from './components/Projects'
+import Contact from './components/Contact'
+
 import img1 from './assets/img/eCommerce.png'
 import imgRickAndMorty from './assets/img/rick_and_morty.png'
 import imgProductStore from './assets/img/produc_store_api.png'
@@ -13,11 +15,12 @@ import imgWeatherApp from './assets/img/weather_app.png'
 import imgUserCRUD from './assets/img/user_crud.png'
 
 import iconDetourmap from './assets/img/detourmaps_icon.svg'
+import Footer from './components/Footer'
 
 
 function App() {
     const skillsData = [
-        { name: 'HTML', level: 'Profesional' },
+        { name: 'HTML', level: 'Profesional'},
         { name: 'CSS', level: 'Profesional' },
         { name: 'JavaScript', level: 'Profesional' },
         { name: 'React.JS', level: 'Middle' },
@@ -54,25 +57,32 @@ function App() {
                     <ProjectItem
                         image={img1}
                         alt='img1'
-                        name='E-commerce' />
+                        name='E-commerce' 
+                        url='https://jmticonap.github.io/jmtp-ecommerce.github.io/' />
                     <ProjectItem
                         image={imgRickAndMorty}
                         alt='Rick & Morty App Client'
-                        name='Rick & Morty App client' />
+                        name='Rick & Morty App client' 
+                        url='https://classy-raindrop-f73165.netlify.app/' />
                     <ProjectItem
                         image={imgProductStore}
                         alt='Product store Rest API'
-                        name='Product store Rest API' />
+                        name='Product store Rest API' 
+                        url='https://jmtpproductstore.herokuapp.com/' />
                     <ProjectItem
                         image={imgWeatherApp}
                         alt='Simple weather app'
-                        name='Simple Weather App' />
+                        name='Simple Weather App' 
+                        url='https://polite-sable-e21494.netlify.app/' />
                     <ProjectItem
                         image={imgUserCRUD}
                         alt='User CRUD App'
-                        name='User CRUD App' />
+                        name='User CRUD App' 
+                        url='https://user-crud-delta.vercel.app/' />
                 </Projects>
+                <Contact />
             </main>
+            <Footer />
         </div>
     )
 }
