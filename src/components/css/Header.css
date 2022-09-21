@@ -32,6 +32,7 @@
 .page-cover__title__h1 {
     grid-area: cover-title;
     width: 100%;
+    font-size: 5rem;
 }
 
 .page-cover__title__div {
@@ -40,6 +41,7 @@
     flex-flow: column nowrap;
     gap: 3rem;
     width: 100%;
+    padding-top: 2rem;
 }
 
 .page-cover__title__img {
