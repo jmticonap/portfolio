@@ -7,13 +7,13 @@ const AboutMe = () => {
     return (
         <section id="about" className="about">
             <h2 className="about__h1">About me</h2>
-            <p className="about__p">I'm a full-stack developer width 1 year,
-                I'm currently a Academlo student, where I'm expanding my
-                tecnical skills; HTML5, CSS3, JavaScript, React.JS, Java,
-                Spring Boot, Python, Django, PostgreSQL.
-                I think programming is the tool for give solutions and help
-                client to impruve methods in it's work flow. I'm a fast
-                learnner wich can demostrate in the variety of tecnologies
+            <p className="about__p">
+                I'm a full-stack developer width 1 year,
+                I'm a Web full-stack developer with knowledge in; HTML5, 
+                CSS3, JavaScript, React.JS, Java, Spring Boot, Python, Django, 
+                PostgreSQL. I think programming is the tool for give solutions 
+                and help client to improve methods in it's work flow. I'm a fast
+                learnner who can demostrate in the variety of tecnologies
                 that I use on my personal projects.
             </p>
             <article className="about-studies">
