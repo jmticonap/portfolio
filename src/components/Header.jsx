@@ -20,8 +20,8 @@ const Header = ({name, linkedinPath, githubPath, email}) => {
                 <h1 className="page-cover__title__h1">Juan Ticona</h1>
                 <div className="page-cover__title__div">
                     <p>
-                        I am a full stack developer. <br />
-                        I'm currently a student at Academlo an I have 
+                        I am a full stack developer, 
+                        with a continius effots to get new skills and knowledge an I have 
                         <span className="highlight"> 1 year of experience.</span><br />
                     </p>
                     <div className="page-cover__socials">
