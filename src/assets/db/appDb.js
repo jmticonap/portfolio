@@ -1,5 +1,13 @@
 
-import imgEcommerce from '../img/ecommerce.png'
+import imgEcommerce from '../img/ecommerce.png'//1
+import imgRickAndMorty from '../img/rick_and_morty.png'//3
+import imgProductStore from '../img/produc_store_api.png'//4
+import imgWeatherApp from '../img/weather_app.png'
+import imgUserCRUD from '../img/user_crud.png'
+import imgPokedex from '../img/pokedex.png'//2
+import img1 from '../img/eCommerce.png'
+
+//================
 
 const appDb = {
     "skills": [
@@ -52,7 +60,44 @@ const appDb = {
         {
             "name": "Ecommerce shop",
             "image": imgEcommerce,
-            "url": "https://splendorous-narwhal-e3dd1a.netlify.app/"
+            "url": "https://splendorous-narwhal-e3dd1a.netlify.app/",
+            "repo": "https://github.com/jmticonap/ecommerce-app"
+        },
+        {
+            "name": "Pokedex Web client",
+            "image": imgPokedex,
+            "url": "https://euphonious-beijinho-981c50.netlify.app/",
+            "repo": "https://github.com/jmticonap/pokedex-web-app"
+        },
+        {
+            "name": "Rick & Morty App Client",
+            "image": imgRickAndMorty,
+            "url": "https://classy-raindrop-f73165.netlify.app/",
+            "repo": "https://github.com/jmticonap/rick-morty"
+        },
+        {
+            "name": "Ecommerce java spring boot Rest API",
+            "image": imgProductStore,
+            "url": "http://34.135.40.9/swagger-ui/index.html",
+            "repo": "https://github.com/jmticonap/nocontry-ecommerce/tree/dev_jmtp"
+        },
+        {
+            "name": "E-commerce",
+            "image": img1,
+            "url": "https://jmticonap.github.io/jmtp-ecommerce.github.io/",
+            "repo": "https://github.com/jmticonap/jmtp-ecommerce.github.io"
+        },
+        {
+            "name": "Simple weather app",
+            "image": imgWeatherApp,
+            "url": "https://polite-sable-e21494.netlify.app/",
+            "repo": "https://github.com/jmticonap/restweather"
+        },
+        {
+            "name": "User CRUD App",
+            "image": imgUserCRUD,
+            "url": "https://user-crud-delta.vercel.app/",
+            "repo": ""
         }
     ]
 }

@@ -52,3 +52,8 @@
 .portfolio__text {
     text-align: left;
 }
+
+.portfolio__go-repo {
+    display: inline-block;
+    width: 100%;
+}

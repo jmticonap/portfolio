@@ -8,13 +8,12 @@ const AboutMe = () => {
         <section id="about" className="about">
             <h2 className="about__h1">About me</h2>
             <p className="about__p">
-                I'm a full-stack developer width 1 year,
-                I'm a Web full-stack developer with knowledge in; HTML5, 
-                CSS3, JavaScript, React.JS, Java, Spring Boot, Python, Django, 
-                PostgreSQL. I think programming is the tool for give solutions 
-                and help client to improve methods in it's work flow. I'm a fast
-                learnner who can demostrate in the variety of tecnologies
-                that I use on my personal projects.
+                I'm a full-stack developer width +1 year,
+                I'm a Web full-stack developer with knowledge in programming language like; Java, JavaScript, Python. 
+                Frameworks/Libraries as; React.Js, Node.Js, Spring Boot, Django, Redux, Sequelize, MaterialUi and also
+                have a stronge background in HTML5, CSS3, relational mapping for persistance layer (PostgreSQL, MySQL). 
+                I think programming is the tool for give solutions and help client to improve methods in their workflow. 
+                I'm a fast learnner who can demostrate in the variety of tecnologies that I use on my personal projects.
             </p>
             <article className="about-studies">
                 <div className="about-studies__itm">

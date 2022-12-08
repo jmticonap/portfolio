@@ -9,13 +9,6 @@ import { Projects, ProjectItem } from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
-import img1 from './assets/img/eCommerce.png'
-import imgRickAndMorty from './assets/img/rick_and_morty.png'
-import imgProductStore from './assets/img/produc_store_api.png'
-import imgWeatherApp from './assets/img/weather_app.png'
-import imgUserCRUD from './assets/img/user_crud.png'
-import imgPokedex from './assets/img/pokedex.png'
-import imgEcommerce from './assets/img/ecommerce.png'
 import iconDetourmap from './assets/img/detourmaps_icon.svg'
 
 import appDb from './assets/db/appDb'
@@ -30,9 +23,9 @@ function App() {
         { name: 'Spring Boot', level: 'Middle' },
         { name: 'Python', level: 'Profesional' },
         { name: 'Django Project', level: 'Middle' },
-        { name: 'SQL', level: 'Profesioanl' },
-        { name: 'Git', level: 'Profesioanl' },
-        { name: 'DB Modelling', level: 'Profesioanl' }
+        { name: 'SQL', level: 'Profesional' },
+        { name: 'Git', level: 'Profesional' },
+        { name: 'DB Modelling', level: 'Profesional' }
     ]
 
     return (
@@ -56,7 +49,18 @@ function App() {
                 </Experience>
                 <Skills skillsData={appDb.skills} />
                 <Projects>
-                    <ProjectItem
+                    {
+                        appDb.projects.map((project, i) => (
+                            <ProjectItem key={`prject_${i}`}
+                                image={project.image}
+                                alt={project.name}
+                                name={project.name}
+                                url={project.url}
+                                repo={project.repo} />
+                        ))
+                    }
+                    
+                    {/* <ProjectItem
                         image={appDb.projects[0].image}
                         alt={appDb.projects[0].name}
                         name={appDb.projects[0].name}
@@ -90,7 +94,7 @@ function App() {
                         image={imgUserCRUD}
                         alt='User CRUD App'
                         name='User CRUD App'
-                        url='https://user-crud-delta.vercel.app/' />
+                        url='https://user-crud-delta.vercel.app/' /> */}
 
                 </Projects>
                 <Contact />
