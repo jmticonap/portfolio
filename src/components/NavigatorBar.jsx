@@ -1,11 +1,11 @@
-import React from 'react';
-import imgLogoPlano from '../assets/img/jmtp_logo_plano.svg'
+import React from "react";
+import imgLogoPlano from "../assets/img/jmtp_logo_plano.svg";
 
 const NavigatorBar = () => {
-    return (
-        <nav className="desktop__nav">
-            <img src={imgLogoPlano} alt="JMTP - logo" />
-            <section>
+  return (
+    <nav className="desktop__nav new-nav">
+      <img src={imgLogoPlano} alt="JMTP - logo" />
+      {/* <section>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About me</a></li>
@@ -14,15 +14,18 @@ const NavigatorBar = () => {
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <input id="input_toggle" type="checkbox" />
-                <label htmlFor="input_toggle" id="btn_toggle">
-                    <span className="material-symbols-outlined">
-                        menu
-                    </span>
-                </label>
-            </section>
-        </nav>
-    );
+            
+            </section> */}
+      <div className="nav-btn">
+        <a href="#">Home</a>
+        <a href="#about">About me</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  );
 };
 
 export default NavigatorBar;

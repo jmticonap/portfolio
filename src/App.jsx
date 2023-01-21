@@ -36,7 +36,7 @@ function App() {
                 linkedinPath='https://www.linkedin.com/in/juan-ticona-pe/'
                 githubPath='https://github.com/jmticonap'
                 email='jm.ticona.p@gmail.com' />
-{/*             
+             
             <main>
                 <AboutMe />
                 <Experience>
@@ -63,7 +63,7 @@ function App() {
                 </Projects>
                 <Contact />
             </main>
-            <Footer /> */}
+            <Footer /> 
         </div>
     )
 }

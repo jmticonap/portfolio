@@ -21,6 +21,7 @@ body {
     background-color: var(--dark);
     color: var(--white);
     transition: .4s;
+    overflow-x: hidden;
 }
 
 #root{
