@@ -22,7 +22,7 @@ const Header = ({name, linkedinPath, githubPath, email}) => {
                     <p>
                         I am a full stack developer, 
                         with a continius effots to get new skills and knowledge an I have 
-                        <span className="highlight"> 1 year of experience.</span><br />
+                        <span className="highlight"> +1 year of experience.</span><br />
                     </p>
                     <div className="page-cover__socials">
                         <div>

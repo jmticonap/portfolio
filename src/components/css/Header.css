@@ -24,7 +24,8 @@
     display: grid;
     grid-template-areas:
         "cover-title cover-title"
-        "cover-data cover-img";
+        "cover-data cover-data"
+        "cover-img cover-img";
     grid-template-columns: 4fr 5fr;
     padding: 1rem 1.5rem;
 }
@@ -207,4 +208,12 @@
     color: #fff;
     border-radius: 2rem;
     
+}
+
+@media screen and (min-width: 768px) {
+    .page-cover__title {
+        grid-template-areas:
+            "cover-title cover-title"
+            "cover-data cover-img";
+    }
 }
