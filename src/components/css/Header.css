@@ -21,7 +21,6 @@
 }
 
 .page-cover__title {
-    background: red;
     display: grid;
     grid-template-areas:
         "cover-title cover-title"
@@ -37,7 +36,6 @@
     grid-area: cover-title;
     width: 100%;
     font-size: 5rem;
-    background-color: plum;
     padding: 0 1rem;
 }
 
@@ -47,15 +45,12 @@
     flex-flow: column nowrap;
     gap: 3rem;
     padding: 1rem 1rem;
-    /* padding-top: 2rem; */
     align-items: center;
-    background-color: green;
     width: 100%;
 }
 @media (max-width: 768px ) {
     .page-cover__title__div{
         flex-direction: row;
-        
     }
 }
 
