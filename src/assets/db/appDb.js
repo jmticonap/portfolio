@@ -45,15 +45,15 @@ const appDb = {
         },
         {
             "name": "SQL",
-            "level": "Profesioanl"
+            "level": "Profesional"
         },
         {
             "name": "Git",
-            "level": "Profesioanl"
+            "level": "Profesional"
         },
         {
             "name": "DB Modelling",
-            "level": "Profesioanl"
+            "level": "Profesional"
         }
     ],
     "projects": [
