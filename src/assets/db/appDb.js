@@ -6,6 +6,7 @@ import imgWeatherApp from '../img/weather_app.png'
 import imgUserCRUD from '../img/user_crud.png'
 import imgPokedex from '../img/pokedex.png'//2
 import img1 from '../img/eCommerce.png'
+import imgApiProduct from '../img/api-product.png'
 
 //================
 
@@ -22,6 +23,10 @@ const appDb = {
         {
             "name": "JavaScript",
             "level": "Profesional"
+        },
+        {
+            "name": "TypeScript",
+            "level": "Middle"
         },
         {
             "name": "React.JS",
@@ -57,6 +62,12 @@ const appDb = {
         }
     ],
     "projects": [
+        {
+            "name": "NodeJs, ExpressJs, TypeORM",
+            "image": imgApiProduct,
+            "url": "https://www.linkedin.com/posts/juan-ticona-pe_propuesta-de-estructura-de-api-rest-con-nodejs-activity-7030900255944531968-FtBv?utm_source=share&utm_medium=member_desktop",
+            "repo": "https://github.com/jmticonap/api-product"
+        },
         {
             "name": "Ecommerce shop",
             "image": imgEcommerce,
